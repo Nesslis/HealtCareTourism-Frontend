@@ -42,15 +42,34 @@
     z-index: 1;
   }
   
-  /* Features Section */
   .features {
-    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .top-features,
+  .bottom-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
   }
   
   .feature {
-    flex-basis: 30%;
+    width: calc(15% + 50px); /* Adjust the width of each feature box */
+    padding: 20px;
+    gap: 2px;
+    border: 1px solid #ccc; /* Add borders for better visibility */
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(232 238 239/ 30%);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;;
+  }
+  .feature:hover{
+    transform: scale(1.1);
+    background-color: rgba(132, 144, 146, 0.451);
   }
   
   /* Footer */

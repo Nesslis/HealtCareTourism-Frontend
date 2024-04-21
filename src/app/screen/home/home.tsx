@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './home.css'; 
+import {InfertilityIcon, chinIcon, eyeIcon, hairIcon, lipsIcon, noseIcon, stomachIcon, toothIcon} from '../../components/icons/icons.tsx'
 import SelectLocation from '../../components/selectLocation/selectLocation.tsx';
 
 function Home() {
@@ -67,21 +68,46 @@ function Hero() {
 function Features() {
   return (
     <section className="features">
-      <div className="feature">
-        <h2>Feature 1</h2>
-        <p>Description of feature 1</p>
+      <div className="top-features">
+        <div className="feature">
+        {toothIcon()}
+          <p>Dental Treatment and Beauty Service</p>
+        </div>
+        <div className="feature">
+          {noseIcon()}
+          <p>Cosmetic Surgery and nose treatment</p>
+        </div>
+        <div className="feature">
+        {InfertilityIcon()}
+          <p>Infertility Treatment & IVF</p>
+        </div>
+        <div className="feature">
+          {hairIcon()}
+          <p>Hair and Eyebrow Transplant</p>
+        </div>
       </div>
-      <div className="feature">
-        <h2>Feature 2</h2>
-        <p>Description of feature 2</p>
-      </div>
-      <div className="feature">
-        <h2>Feature 3</h2>
-        <p>Description of feature 3</p>
+      <div className="bottom-features">
+        <div className="feature">
+        {chinIcon()}
+          <p>Removing Double chin</p>
+        </div>
+        <div className="feature">
+        {eyeIcon()}
+          <p>Cosmetic Eye Surgery (Blepharoplasty)</p>
+        </div>
+        <div className="feature">
+        {lipsIcon()}
+          <p>Lip Cosmetic Surgery</p>
+        </div>
+        <div className="feature">
+        {stomachIcon()}
+          <p>Gastric reduction Surgery</p>
+        </div>
       </div>
     </section>
   );
 }
+
 
 function Testimonials() {
   return (
