@@ -1,7 +1,7 @@
 /* login.css */
 
 .login-page {
-    background-image: url('/public/tourism.jpg');
+    background-image: url('/public/images/tourism.jpg');
     height: 100vh;
     width: 100%;
     display: flex;

@@ -8,7 +8,7 @@
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-image: url('/public/tourism.jpg');
+    background-image: url('/public/images/tourism.jpg');
   }
   
   .registration-container {
