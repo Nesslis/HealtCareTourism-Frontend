@@ -10,6 +10,7 @@ import LoginPage from "../../screen/auth/login/login.tsx";
 import RegisterPage from "../../screen/auth/register/register.tsx";
 import Home from "../../screen/home/home.tsx";
 import Clinics from "../../screen/clinics/clinics.tsx";
+import Contact from "../../screen/contact/contact.tsx";
 import './header.css';
 
 const routes = createRoutesFromElements(
@@ -30,9 +31,6 @@ export function Header() {
         <div className="left-links">
         <img src={'./softwareLogo.png'} alt="Logo" className="logo" style={{background: 'transparent'}} />
             <a href="/">Home</a>
-            <a href="/trends">Trends</a>
-            <a href="/discounts">Discounts</a>
-            <a href="/urgent">Urgent</a>
             <a href="/clinics">Clinics</a>
             <a href="/hotels">Hotels</a>
             <a href="/contact">Contact</a>
