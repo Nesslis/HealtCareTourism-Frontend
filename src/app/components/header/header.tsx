@@ -11,6 +11,8 @@ import RegisterPage from "../../screen/auth/register/register.tsx";
 import Home from "../../screen/home/home.tsx";
 import Clinics from "../../screen/clinics/clinics.tsx";
 import Contact from "../../screen/contact/contact.tsx";
+import MapPage from "../../screen/hotels/hotels.tsx";
+
 import './header.css';
 
 const routes = createRoutesFromElements(
@@ -18,6 +20,7 @@ const routes = createRoutesFromElements(
     <Route path="../auth/login/login.tsx" element={<LoginPage />} />
     <Route path="../auth/register/register.tsx" element={<RegisterPage />} />
     <Route path="../../screen/clinics/clinics.tsx" element={<Clinics/>} />
+    <Route path="../../screen/hotels/hotels.tsx" element= {<MapPage/>} />
   </Route>
 );
 
