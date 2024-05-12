@@ -94,16 +94,16 @@ const Clinics: React.FC = () => {
             <div className={`review-circle ${selectedRating.includes("★★★★☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★★★☆")}></div>
           </div>
           <div className="review-item">
-            <span>★★★★☆</span>
-            <div className={`review-circle ${selectedRating.includes("★★★☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★★★☆")}></div>
+            <span>★★★☆☆</span>
+            <div className={`review-circle ${selectedRating.includes("★★★☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★★☆☆")}></div>
           </div>
           <div className="review-item">
-            <span>★★★★☆</span>
-            <div className={`review-circle ${selectedRating.includes("★★☆☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★★★☆")}></div>
+            <span>★★☆☆☆</span>
+            <div className={`review-circle ${selectedRating.includes("★★☆☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★☆☆☆")}></div>
           </div>
           <div className="review-item">
-            <span>★★★★☆</span>
-            <div className={`review-circle ${selectedRating.includes("★☆☆☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★★★★☆")}></div>
+            <span>★☆☆☆☆</span>
+            <div className={`review-circle ${selectedRating.includes("★☆☆☆☆") ? "selected" : ""}`} onClick={() => handleRatingSelect("★☆☆☆☆")}></div>
           </div>
         </div>
       </div>
